@@ -39,8 +39,10 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (isChecked) {
                     editor.putBoolean(getString(R.string.send_toggle), true);
+                    editor.apply();
                 } else {
                     editor.putBoolean(getString(R.string.send_toggle), false);
+                    editor.apply();
                 }
             }
         });
