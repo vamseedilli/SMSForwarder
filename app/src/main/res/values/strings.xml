@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SMS Forwarder</string>
+    <string name="input_ph_num">Enter the number to forward messages</string>
+    <string name="button_ok">OK</string>
+    <string name="app_shared_preferences_key">com.vdill.smsforwarder.sharedPreferences</string>
+    <string name="target_phone_number">TARGET_NUMBER</string>
+    <string name="send_switch_on">ON</string>
+    <string name="send_switch_off">OFF</string>
+    <string name="send_toggle">SEND_TOGGLE</string>
+</resources>
