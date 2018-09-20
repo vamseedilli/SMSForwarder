@@ -46,6 +46,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
+    //Making changes
     public void updateTargetNumber(View view){
         EditText number = (EditText) findViewById(R.id.editText);
         editor.putString(getString(R.string.target_phone_number), String.valueOf(number.getText()));
