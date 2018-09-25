@@ -7,4 +7,19 @@
     <string name="send_switch_on">ON</string>
     <string name="send_switch_off">OFF</string>
     <string name="send_toggle">SEND_TOGGLE</string>
+    <string name="first_time_user">FIRST_TIME_USER</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">SMS Charges!</string>
+    <string name="slide_1_desc">SMS forwarded by the app will incur costs as per your service provider and are NOT free</string>
+
+    <string name="slide_2_title">Key in number and turn ON</string>
+    <string name="slide_2_desc">Enter the mobile number to which you want to forward the messages and turn the switch on!</string>
+
+    <string name="slide_3_title">Allow app in background</string>
+    <string name="slide_3_desc">If messages are not getting sent after closing the app, please allow the app to run in background</string>
+    <string name="title_activity_welcome_tutorial">WelcomeTutorial</string>
+
 </resources>
