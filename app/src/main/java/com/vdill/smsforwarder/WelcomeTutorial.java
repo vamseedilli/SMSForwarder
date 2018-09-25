@@ -34,7 +34,6 @@ public class WelcomeTutorial extends AppCompatActivity {
                 R.layout.tutorial_layout_two,
                 R.layout.tutorial_layout_three
         };
-
     }
 
     private void launchMainScreen(){
