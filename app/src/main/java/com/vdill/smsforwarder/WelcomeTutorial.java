@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 public class WelcomeTutorial extends AppCompatActivity {
 
@@ -15,6 +16,7 @@ public class WelcomeTutorial extends AppCompatActivity {
     LinearLayout dotsLayout;
     Button buttonSkip, buttonNext;
     int [] layouts;
+    TextView[] dots;
     SharedPreferences sharedPreferences = getSharedPreferences(getString(R.string.app_shared_preferences_key), Context.MODE_PRIVATE);
     SharedPreferences.Editor editor = sharedPreferences.edit();
 
@@ -41,5 +43,14 @@ public class WelcomeTutorial extends AppCompatActivity {
         editor.apply();
         startActivity(new Intent(this, MainActivity.class));
         finish();
+    }
+
+    private void addBottomDots(int currentPage){
+        dots = new TextView[layouts.length];
+        int[] colorsActive = getResources().getIntArray(R.array.array_dot_active);
+        int[] colorsInActive = getResources().getIntArray(R.array.array_dot_inactive);
+
+        dotsLayout.removeAllViews();
+
     }
 }
